@@ -7,9 +7,9 @@ def main1():
 	fix_x = 0.8
 	for f in [u1, u2]:
 		for method in [
-			fd1_double,
 			fd1_plus,
-			fd1_minus
+			fd1_minus,
+			fd1_double,
 		]:
 			x_h, y_h = [], []
 			for h_deg in range(0, 16, 1):
