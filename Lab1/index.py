@@ -1,6 +1,20 @@
 import math
 
 
+class u:
+	@staticmethod
+	def f(x):
+		return math.sin(x)*math.exp(x)
+
+	@staticmethod
+	def d1(x):
+		return math.exp(x)*(math.sin(x)+math.cos(x))
+
+	@staticmethod
+	def d2(x):
+		return 2*math.exp(x)*math.cos(x)
+
+
 class u1:
 	name = 'x$^{2}$'
 
